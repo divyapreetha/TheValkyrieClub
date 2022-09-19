@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.container {
+  padding: 0;
+}
+
+.myLogo {
+  
+  color: white;
+  width: max-content;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 0.05cm;
+  font-size: 50px;
+}
+
+.tagLine {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+.walletButton {
+  margin-top: -60px;
+  font-size: 20px;
+}
+
+.main {
+  height: 700px;
+  color: white;
+  
+}
+.playArea {
+  background-color: rgba(83, 83, 82, 0.64);
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.headings {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+
+.instructions {
+  font-family: 'Satisfy', cursive;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.blink {
+  animation: 2s linear infinite condemned_blink_effect;
+  font-family: 'Creepster', cursive;
+  font-size: xx-large;
+  letter-spacing: 0.05cm;
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+
